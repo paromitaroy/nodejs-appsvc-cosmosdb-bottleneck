@@ -10,9 +10,9 @@ on:
   workflow_dispatch: 
 
 env:
-  LOAD_TEST_RESOURCE: "${{ env.LOAD_TEST_RESOURCE }}"
-  LOAD_TEST_RESOURCE_GROUP: "${{ env.LOAD_TEST_RESOURCE_GROUP }}"
-  ENDPOINT_URL: "${{ env.ENDPOINT_URL }}"
+  LOAD_TEST_RESOURCE: ${{ env.LOAD_TEST_RESOURCE }}
+  LOAD_TEST_RESOURCE_GROUP: ${{ env.LOAD_TEST_RESOURCE_GROUP }}
+  ENDPOINT_URL: ${{ env.ENDPOINT_URL }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
